@@ -8,4 +8,4 @@
 - 记录操作笔记
 - 记录项目前后端接口
 
-[Get Started](http://heshuxing.work)
+[Get Started](http://heshuxing.work/#/dev-doc)
