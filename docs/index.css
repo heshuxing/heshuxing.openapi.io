@@ -1,0 +1,110 @@
+.search {
+  position: fixed;
+  top: 18px;
+  right: 100px;
+  padding: 0px !important;
+  border-bottom: none !important;
+  height: 45px;
+  width: 250px;
+}
+.app-nav.no-badge {
+  margin-right: 800px !important;
+}
+.search .results-panel.show {
+  width: 260px;
+  background: #ffe;
+}
+.sidebar {
+  margin-top: 80px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar .sidebar-nav p:nth-child(1) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 54px;
+  margin: 18px 0px 10px 0px;
+}
+.content {
+  padding-top: 0px;
+  margin-top: 80px;
+  border-top: 1px solid #eee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+}
+.search .input-wrap {
+  border: 1px solid #eee;
+  width: 300px;
+}
+.search .input-wrap input:nth-child(1) {
+}
+.sidebar-nav li {
+  margin: 10px 0 10px 15px;
+}
+.sidebar .sidebar-nav {
+  padding-top: 20px;
+}
+.app-nav.no-badge ul li:nth-child(4) {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  right: 15px;
+  top: 25px;
+}
+.sidebar ul li a {
+  /* padding-left: 6px; */
+  text-decoration: none !important;
+}
+/* .sidebar ul {
+    padding: 0 0 0 15px !important;
+} */
+.app-nav li ul li {
+  display: flex;
+}
+.app-nav li ul {
+  width: 90px;
+}
+.app-nav ul li:nth-child(3) {
+  width: 30px;
+  height: 30px;
+  position: fixed !important;
+  right: 20px !important;
+}
+.logoTitle{
+    position: fixed;
+    top: 0px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #0093FF;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    margin-top: 27px !important;
+}
+/* modify default style */
+.markdown-section hr {
+  margin: 0 !important;
+}
+.markdown-section h2 {
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.2rem !important;
+  padding: 0 !important;
+}
+.markdown-section h3 {
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.2rem !important;
+  padding: 0 !important;
+}
+.markdown-section h4 {
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.2rem !important;
+  padding: 0 !important;
+}
+.pagination-item {
+  margin-top: 1.2em !important;
+}
+.markdown-section pre {
+  margin: 0 !important;
+  padding: 0 !important;
+}

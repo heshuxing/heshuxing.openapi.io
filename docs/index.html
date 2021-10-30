@@ -1,27 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>乞灵@openAPI</title>
+  <title>乞灵 - OpenAPI</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+  <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'openAPI',
-      repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       loadNavbar: true,
-      coverpage: true,
-      onlyCover: true,
+      themeColor: '#0093FF',
+      mergeNavbar: true,
+      auto2top: true,
+      search: {
+        maxAge: 10000, // 过期时间，单位毫秒，默认一天
+        noData: 'Not Found', // 搜索不到结果时显示
+        paths: 'auto',
+        placeholder: 'Search',
+      },
+      alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
+        '/_sidebar.md': '/develop-doc/_sidebar.md',
+        '/develop-doc/.*/_sidebar.md': '/_sidebar.md',
+        '/en/_sidebar.md': '/en/develop-doc/_sidebar.md',
+        '/en/develop-doc/.*/_sidebar.md': '/en/_sidebar.md',
+        '/develop-doc/.*/_navbar.md': '/_navbar.md',
+        '/faq/_navbar.md': '/_navbar.md',
+        '/en/develop-doc/.*/_navbar.md': '/en/_navbar.md',
+        '/en/faq/_navbar.md': '/en/_navbar.md'
+      },
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true
+      },
+       plugins: [
+        function (hook) {
+          var logo = [
+            
+          ]
+          var title = [
+            '<p class="logoTitle">乞灵@OpenAPI</p>'
+          ]
+          var lan = [
+            
+          ]
+          hook.afterEach(function (html) {
+            return html + logo + title + lan/* + footer*/;
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
+
 </html>

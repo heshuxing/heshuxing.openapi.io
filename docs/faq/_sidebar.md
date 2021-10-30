@@ -1,0 +1,2 @@
+- [常见问题](/faq/faq.md)
+- [联系我们](/faq/contact_us.md)
