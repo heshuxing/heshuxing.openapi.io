@@ -30,14 +30,11 @@
         placeholder: 'Search',
       },
       alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
-        '/_sidebar.md': '/develop-doc/_sidebar.md',
-        '/develop-doc/.*/_sidebar.md': '/_sidebar.md',
-        '/en/_sidebar.md': '/en/develop-doc/_sidebar.md',
-        '/en/develop-doc/.*/_sidebar.md': '/en/_sidebar.md',
-        '/develop-doc/.*/_navbar.md': '/_navbar.md',
-        '/faq/_navbar.md': '/_navbar.md',
-        '/en/develop-doc/.*/_navbar.md': '/en/_navbar.md',
-        '/en/faq/_navbar.md': '/en/_navbar.md'
+        
+        '/dev-doc/.*/_sidebar.md': '/_sidebar.md',
+	'/tec-res/.*/_sidebar.md': '/_sidebar.md',
+        '/dev-doc/.*/_navbar.md': '/_navbar.md',
+        '/tec-res/_navbar.md': '/_navbar.md',
       },
       pagination: {
         previousText: 'Previous',
@@ -45,7 +42,7 @@
         crossChapter: true,
         crossChapterText: true
       },
-       plugins: [
+      plugins: [
         function (hook) {
           var logo = [
             

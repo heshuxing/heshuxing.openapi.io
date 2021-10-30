@@ -1,0 +1,18 @@
+- 技术调研思路
+  - [明确目的](/tec-res/ideas/purpose.md)
+  - [确定步骤](/tec-res/ideas/step.md)
+- 调研过程
+  - [需求分析](/tec-res/need/analysis.md)
+  - [需求整理](/tec-res/need/tidy.md)
+- 技术架构
+  - [技术选型](/tec-res/stack/choose.md)
+  - [前端技术栈](/tec-res/stack/front.md)
+  - [后端技术栈](/tec-res/stack/back.md)
+  - [运维技术栈](/tec-res/stack/ops.md)
+- 组件调研
+  - [MySQL8.0](/tec-res/component/mysql.md)
+  - [MongoDB](/tec-res/component/mongodb.md)
+  - [Redis](/tec-res/component/redis.md)
+  - [Docker](/tec-res/component/docker.md)
+  - [Nginx](/tec-res/component/nginx.md)
+  - [Zookeeper](/tec-res/component/zookeeper.md)

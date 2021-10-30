@@ -1,2 +1,2 @@
-* [开发文档](/develop-doc/before-develop/notes.md)
-* [常见问题](/faq/faq.md)
+* [开发文档](/dev-doc/before-develop/notes.md)
+* [技术调研](tec-res/ideas/purpose.md)

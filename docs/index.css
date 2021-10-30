@@ -72,6 +72,14 @@
   position: fixed !important;
   right: 20px !important;
 }
+.lan {
+  width: 30px !important;
+  height: 30px !important;
+  float: right !important;
+  position: fixed !important;
+  right: 40px !important;
+  top: 20px;
+}
 .logoTitle{
     position: fixed;
     top: 0px;
